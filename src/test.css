@@ -1,0 +1,252 @@
+body{
+    background-color: rgb(250, 245, 247);
+    margin-right: px;
+    overflow: hidden;
+}
+
+.main-content {
+    margin-left: 100px;
+    padding: 20px;
+    background-color: white;
+    margin-top: -10px;
+  }
+
+  .topbar-title{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 30px;
+  }
+
+  .topbar-title h2{
+    font-size: large;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .link:hover {
+  text-decoration: underline;
+}
+
+  .topbar-title h3{
+    font-size: large;
+    font-weight: 400;
+    text-decoration: none;
+  } 
+
+  .main-2{
+    display: flex;
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .color{
+  position: relative;
+  font-weight: 50;
+    background-color: plum;
+    width: 100%;
+  }
+  
+  .header-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .header-section div {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  
+  .header-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .header-section select,
+  .header-section input {
+    width: 290px;
+    padding: 5px;
+  }
+  
+  .form-section {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input{
+    width: 100px;
+    height: 30px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+  .form-group select {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+    height: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .table-section{
+    border-collapse: collapse;
+  }
+
+  .table-section table {
+    width: 1000px;
+    border-left: rgb(238, 190, 66) solid 7px;
+    margin-left: 190px;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+  .table-section th,
+  .table-section td {
+    border-collapse: collapse;
+    border: none;
+    padding: 8px;
+  }
+  
+  .table-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-section  td{
+    align-items: center;
+  }
+  
+  .header-section div select{
+    width: 300px;
+    height: 45px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+  .header-section div input{
+    width: 130px;
+    height: 28px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+  .section-1  input {
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+  
+  
+  .heading  {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+  }
+
+  
+
+  .table-section span img{
+    width: 20px;
+    align-items: center;
+  }
+
+  .table-section span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width:700px){
+    .form-section {
+      margin-top: 50px;
+      margin-bottom: 2px;
+      width: 200px;
+      display: flex;
+      margin-left: -50px;
+    }
+
+
+    .main-2{
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+      padding: 20px;
+      margin-top: 40px;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .table-section table{
+      border-collapse: collapse;
+      width: 90px;
+      margin-left: -10px;
+    }
+    .heading {
+      margin-right: 200px;
+      display: none;
+    }
+  }
+
+  @media (max-width:480px){
+    .form-section {
+      margin-top: 0;
+      margin-bottom: 2px;
+      width: 200px;
+      margin-top: 250px;
+      display: flex;
+    }
+
+
+    .main-2{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+      padding: 20px;
+      margin-top: 100px;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .table-section table{
+      border-collapse: collapse;
+      width: 90px;
+      margin-left: -20px;
+    }
+    .heading p{
+      margin-right: 200px;
+    }
+  }

@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(250, 245, 247);
+    margin-right: 20px;
+}
+
+.main-content {
+    margin-left: 110px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+  }
+
+  .section-2 p{
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    color: red;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+}
+
+.link.active {
+    color: black; /* Ensure text color stays black or adjust as needed */
+}
+
+.link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: gold;
+    position: absolute;
+    bottom: -5px; /* Adjust the space below the text */
+    left: 0;
+}
+
+  
+  .topbar-title h3 {
+    margin: 20px;
+    padding: 0 15px; /* Optional: Adjust padding for spacing */
+  }
+  
+  .topbar-title h3 .link {
+    display: inline-block;
+    
+  }
+  
+
+  .section-2 select{
+    bottom: 80px;
+  }
+  .topbar-title{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+    gap: 30px;
+  }
+
+  .topbar-title h2{
+    font-size: large;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  
+
+  .topbar-title h3{
+    font-size: large;
+    font-weight: 400;
+    text-decoration: none;
+  } 
+
+  .main-2{
+    display: flex;
+    margin-left: 110px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+  }
+
+  .color{
+  position: relative;
+  font-weight: 50;
+    background-color: plum;
+    width: 100%;
+  }
+  
+  .header-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .header-section div {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  
+  .header-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .header-section select,
+  .header-section input {
+    width: 290px;
+    padding: 5px;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input{
+    width: 100px;
+    height: 30px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .table-section{
+    border-collapse: collapse;
+  }
+  
+  .table-section table {
+    width: 1000px;
+    border-left: goldenrod solid 7px;
+    margin-left: 80px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-section th,
+  .table-section td {
+    border-collapse: collapse;
+    border: none;
+    padding: 8px;
+  }
+  
+  .table-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-section  td{
+    align-items: center;
+  }
+  
+  .header-section div select{
+    width: 300px;
+    height: 45px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+  .header-section div input{
+    width: 130px;
+    height: 28px;
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+  .section-1  input {
+    border: rgb(243, 226, 226) solid 3px;
+    border-radius: 5px;
+  }
+
+
+  .table-section span img{
+    width: 20px;
+    align-items: center;
+  }
+
+  .table-section span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
